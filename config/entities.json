@@ -38,6 +38,7 @@
             }
         }
     },
+
     "R": {
         "name": "bomba",
         "description": "e' una bomba pronta a detonare, devo sbrigarmi a disinnescarla!",
@@ -46,8 +47,10 @@
             "no-item": {
                 "message": "Ti affacci alla finestra, ma qualcosa ti spinge violentemente da dietro e cadi",
                 "game_over": "Non volevi uscire? Anche se con un metodo alternativo ce l'hai fatta no?"
-            },
-
+            }
+        }    
+    },
+        
     "1": {
         "name": "Porta",
         "description": "E' una porta",
@@ -59,17 +62,43 @@
             }
         }
     },
+
     "2": {
         "name": "Porta",
         "description": "E' una porta semi-bruciata",
         "color": "blue",
         "interactions": {
             "no-item": {
-                "message": "quale porta scusa???",
-                "transform": "L"
+                "message": "Si e' aperta",
+                "move_to_room": 2
             }
         }
     },
+
+    "3": {
+        "name": "Porta",
+        "description": "E' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "Si e' aperta",
+                "move_to_room": 3
+            }
+        }
+    },
+
+    "4": {
+        "name": "Porta",
+        "description": "E' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "Si e' aperta",
+                "move_to_room": 4
+            }
+        }
+    },
+
     "0": {
         "name": "Porta",
         "description": "E' una porta",
@@ -81,6 +110,7 @@
             }
         }
     },
+
     "Q": {
         "name": "Quadro",
         "description": "La tela e' stata tagliata da qualcosa",
@@ -91,6 +121,7 @@
             }
         }
     },
+
     "D": {
         "name": "Dipinto",
         "description": "E' un \"normale quadro\" come tutti gli altri che ci sono qua dentro",
@@ -188,7 +219,7 @@
             },
             "P": {
                 "message": "Dici al fantasma la strana parola scritta sulla tela.\nImmediatamente il fantasma smette di parlare, si solleva da terra e vieni travolto da una luce accecante.",
-                "win": "Qunado riapri gli occhi sei parecchio confuso.\nTi accorgi di essere nel tuo letto con tua madre che apre le tapparelle per farti svegliare e che continua ad urlare: ALZATI!."
+                "win": "Qunado riapri gli occhi sei parecchio confuso.\nTi accorgi di essere nel tuo letto con tua madre che apre le tapparelle per farti svegliare e che continua ad urlare: ALZATI!"
             }
         }
     },
