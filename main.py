@@ -95,11 +95,6 @@ class Entity:
                 if "pickup" in action:
                     player.inventory[self.graphic] = self
 
-                """if "pf" in action:                  #prende il numero dei punti follia contenuto nel file json
-                    global pf                       #trasformandolo in un intero lo passa alla funzione contenuta nella class Player
-                    pf = int(action["pf"])
-                    Player.madness(pf)"""
-
                 if item is not None and action.get("remove_from_inventory", False) == True :
                     del player.inventory[item.graphic]
 
@@ -150,15 +145,6 @@ class Player(Mobile):
     def __init__(self, room, x, y):
         Mobile.__init__(self, room, x, y, "P", Bg.blue)
         self.inventory = {}
-
-    """def madness(pf):
-        #mad = 0                        #mad sarebbe la varibile che si incrementa ogni volta con pf
-        #mad += pf                      #ma dovendo dichiarare un suo valore iniziale, riparte ogni volta da zero e non si incrementa
-        if pf < 100:
-            print("Punti follia: 10")
-        else:
-            self.game.game_over("Sei totalmente impazzito")           #perdi quando arrivi a 100 pf"""
-            
 
     def draw_inventory(self):
         print("Inventario:")
@@ -243,17 +229,7 @@ class Game:
                 print("\t- usa {} con {} con {}{}".format(inventory_entity.name, entity.name, inventory_entity, entity))
 
         print("\t- QUIT per uscire")
-        """print()
-
-        follia = pf                         #dovrebbe stampare i pf attuali del giocatore incrementandosi tramite pf
-        follia += pf
-        print("Punti follia: ", follia)
-
-        follia = 0
-        follia = Player.madness
-        print("Punti follia: {}".format(Player.madness))
-        print("Punti follia: ", mad)"""
-
+        
         action = input().upper()
         if action == "W":
             self.player.move(Directions.N)

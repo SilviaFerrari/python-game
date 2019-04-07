@@ -6,7 +6,6 @@
         "interactions":  {
             "no-item": {
                 "message": "Ti sei sporcato le mani col sangue",
-                "pf": "10",
                 "transform": " "
             }
         }
@@ -18,8 +17,7 @@
         "color": "magenta",
         "interactions": {
             "no-item": {
-                "message": "Ti sei seduto sulla carrozzina e hai avvertito un brivido lungo la schiena",
-                "pf": "10"
+                "message": "Ti sei seduto sulla carrozzina e hai avvertito un brivido lungo la schiena"
             }
         }
     },
