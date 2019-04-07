@@ -190,7 +190,7 @@
         "color": "yellow",
         "interactions": {
         	"no-item": {
-        		"message": "Sentendoti improvvisamente stanco ti ci sdrai sopra, ma il tuo corpo si paralizza, senti stani stridii, passi pesanti e...",
+        		"message": "Sentendoti improvvisamente stanco ti ci sdrai sopra, ma il tuo corpo si paralizza, senti strani stridii, passi pesanti e...",
         		"game_over": "Attento non devi occupare il posto di un altro...non sono molto amichevoli qui"
         	}
         }
@@ -219,7 +219,7 @@
             },
             "P": {
                 "message": "Dici al fantasma la strana parola scritta sulla tela.\nImmediatamente il fantasma smette di parlare, si solleva da terra e vieni travolto da una luce accecante.",
-                "win": "Qunado riapri gli occhi sei parecchio confuso.\nTi accorgi di essere nel tuo letto con tua madre che apre le tapparelle per farti svegliare e che continua ad urlare: ALZATI!"
+                "win": "Quando riapri gli occhi sei parecchio confuso.\nTi accorgi di essere nel tuo letto con tua madre che apre le tapparelle per farti svegliare e che continua ad urlare: ALZATI!"
             }
         }
     },
@@ -230,7 +230,7 @@
         "color": "black",
         "interactions": {
             "no-item": { 
-                "message": "Hai preuto l'interruttore",
+                "message": "Hai premuto l'interruttore",
                 "transform": "F"
             }
         }  
