@@ -1,19 +1,19 @@
 {
     "0": {
-        "name": "Sala",
-        "description": "Questo luogo e' abbastanza accogliente nonostante il senso di claustrofobia che ti trasmette",
-        "color": "white"
+        "name": "Atrio",
+        "description": "Anche se non sembra molto accogliente lo e' di piu' rispetto alle altre stanze, fidati",
+        "color": "grey"
     },
 
     "1": {
-        "name": "Cucina",
-        "description": "E' tutto molto disordinato. Sembra che nessuno abbia riordinato da molto tempo",
-        "color": "red"
+        "name": "Stanza da letto",
+        "description": "Il disordine regna sovrano, trovare qualcosa qua in mezzo sara' difficile",
+        "color": "grey"
     },
     
     "2": {
-        "name": "Sogno",
-        "description": "sei evidentemente in un sogno",
-        "color": "black"
+        "name": "Bagno",
+        "description": "L'odore non e' propriamente dei migliori, bisognerebbe cambiare aria qua dentro",
+        "color": "grey"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "S": {
+    "O": {
         "name": "Macchia di sangue",
         "color": "red",
         "description": "Sembra essere ancora fresco...",
@@ -32,8 +32,7 @@
             },
             "T": {
                 "message": "Hai usato il segaossa per tagliare le tubature",
-                "transform": " ",
-                "remove_from_inventory": true
+                "transform": " "
             }
         }
     },
@@ -62,7 +61,7 @@
         }    
     },
 
-    "W": {
+    "E": {
         "name": "Finestra",
         "description": "Alcuni pezzi di vetro sono aldati in frantumi",
         "color": "cyan",
@@ -110,7 +109,7 @@
 
     "2": {
         "name": "Porta",
-        "description": "E' una porta semi-bruciata",
+        "description": "E' una porta bruciata",
         "color": "blue",
         "interactions": {
             "no-item": {
@@ -159,7 +158,7 @@
     "Q": {
         "name": "Quadro",
         "description": "La tela e' stata tagliata da qualcosa",
-        "color": "blue",
+        "color": "green",
         "interactions": {
             "no-item": {
                 "message": "Non studi mai arte e ti metti a guardare i quadri proprio ora?!"
@@ -167,12 +166,12 @@
         }
     },
 
-    "D": {
+    "H": {
         "name": "Dipinto",
         "description": "E' un \"normale quadro\" come tutti gli altri che ci sono qua dentro",
         "color": "blue",
         "interactions": {
-            "no-item": {
+            "R": {
                 "message": "Spostando il quadro la cornice va in mille pezzi e ti rimane solo un frammento della tela",
                 "transform": "Y"
             }
@@ -194,7 +193,7 @@
 
     "P": {
         "name": "Pezzo di tela con messaggio",
-        "description": "C'è' una strana scritta sbiadita sulla tela",
+        "description": "C'e' una strana scritta sbiadita sulla tela",
         "color": "red",
         "interactions": {
             "no-item": {
@@ -207,19 +206,50 @@
 
     "L": {
         "name": "Lama",
-        "description": "E' una vecchia lama, ma ancora parecchio affilata",
-        "color": "red",
+        "description": "E' una vecchia lama, non e' molto affilata",
+        "color": "grey",
         "interactions": {
             "no-item": {
                 "message": "Hai preso la lama",
+                "transform": " ",
+                "pickup": true
+            },
+            "Z": {
+                "message":"Sei riuscito ad affilarla per bene",
+                "transform": "R",
+                "remove_from_inventory": true,
+                "pickup": " "
+            }    
+        }
+    },
+    "Z": {
+        "name": "arrotolino",
+        "description": "Serve per affilare le lame",
+        "color": "red",
+        "interactions": {
+            "no-item": {
+                "message": "hai raccolto l'arrotolino",
                 "transform": " ",
                 "pickup": true
             }
         }
     },
 
+    "R": {
+        "name": "Lama affilata",
+        "description": "Hai affilato la lama per bene",
+        "color": "grey",
+        "interactions": {
+            "no-item": {
+                "message": "Hai preso la lama affilata",
+                "transform": " ",
+                "pickup": true
+            }        
+
+        }
+    },
     "N": {
-        "name": "Lampda accesa",
+        "name": "Lampada accesa",
         "description": "Forse qualcun'altro era gia' stato qui poco tempo fa...Chissa' se ce l'ha fatta ad uscire",
         "color": "green",
         "interactions": {
@@ -234,22 +264,9 @@
         "description": "E' una barella parecchio impolverata",
         "color": "yellow",
         "interactions": {
-        	"no-item": {
-        		"message": "Sentendoti improvvisamente stanco ti ci sdrai sopra, ma il tuo corpo si paralizza, senti strani stridii, passi pesanti e...",
-        		"game_over": "Attento non devi occupare il posto di un altro...non sono molto amichevoli qui"
-        	}
-        }
-    },
-
-    "K": {
-        "name": "Mazzo di chiavi",
-        "description": "E' un mazzo pieno di chiavi, anche se alcune sono spezzate",
-        "color": "yellow",
-        "interactions": {
             "no-item": {
-                "message": "Hai preso il mazzo di chiavi",
-                "transform": " ",
-                "pickup": true
+                "message": "Sentendoti improvvisamente stanco ti ci sdrai sopra, ma il tuo corpo si paralizza, senti strani stridii, passi pesanti e...",
+                "game_over": "Attento non devi occupare il posto di un altro...non sono molto amichevoli qui"
             }
         }
     },
@@ -279,5 +296,17 @@
                 "transform": "F"
             }
         }  
+    },
+
+    "I": {
+        "name": "vaso semi-distrutto",
+        "description": "Questo vaso e' molto vecchio e' molto malandato",
+        "color": "green",
+        "interactions": {
+            "no-item": {
+                "message": "C'è qualcosa nel fondo...",
+                "trasform": "Z"
+            }
+        }
     }
 }
