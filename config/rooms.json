@@ -2,7 +2,7 @@
     "0": {
         "name": "Sala",
         "description": "Questo luogo e' abbastanza accogliente nonostante il senso di claustrofobia che ti trasmette",
-        "color": "white"
+        "color": "grey"
     },
 
     "1": {
@@ -12,8 +12,8 @@
     },
     
     "2": {
-        "name": "Sogno",
-        "description": "sei evidentemente in un sogno",
-        "color": "black"
+        "name": "Infermeria",
+        "description": "Ci sono molte barelle e medicine a terra, piu' quelli che sembrerebbero...strumenti chirurgici?",
+        "color": "grey"
     }
 }

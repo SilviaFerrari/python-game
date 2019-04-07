@@ -6,6 +6,7 @@
         "interactions":  {
             "no-item": {
                 "message": "la schiacci",
+                "pf": "10",
                 "transform": " "
             }
         }
@@ -144,6 +145,9 @@
         "description": "un vecchio candelabro arrugginito",
         "color": "yellow",
         "interactions": {
+        	"no-item": {
+        		"pf": "10"
+        	},
             "V": {
                 "message": "mmm, ha proprio senso... abra cadabra!",
                 "transform": " ",
@@ -188,11 +192,11 @@
 
     "+": {
         "name": "interruttore",
-        "description": "e' un interruttore posizionato su ACCESO",
+        "description": "E' un interruttore posizionato su ACCESO",
         "color": "black",
         "interactions": {
             "no-item": { 
-                "message": "lo premi",
+                "message": "Hai preuto l'interruttore",
                 "transform": "-"
             }
         }
@@ -200,11 +204,11 @@
 
     "-": {
         "name": "interruttore",
-        "description": "e' un interruttore posizionato su SPENTO",
+        "description": "E' un interruttore posizionato su SPENTO",
         "color": "black",
         "interactions": {
             "no-item": { 
-                "message": "lo premi",
+                "message": "Hai preuto l'interruttore",
                 "transform": "+"
             }
         }  
