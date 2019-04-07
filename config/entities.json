@@ -11,6 +11,7 @@
             }
         }
     },
+
     "C": {
         "name": "Carrozzina",
         "description": "E' solo una vecchia carrozzina arruginita e cigolante",
@@ -19,30 +20,53 @@
             "no-item": {
                 "message": "Ti sei seduto sulla carrozzina e hai avvertito un brivido lungo la schiena",
                 "pf": "10"
-            },
-            "T": {
-                "message": "Hai usato le tenaglie per tagliare i raggi delle ruote della carrozzina",
-                "transform": "R"
             }
         }
     },
+
+    "X": {
+        "name": "Tubature",
+        "description": "Sono le vecchie tubature dello scarico",
+        "color": "magenta",
+        "interactions": {
+            "no-item": {
+                "message": "non puoi passare oltre, il passaggio e' ostruito",
+            },
+            "T": {
+                "message": "Hai usato il segaossa per tagliare le tubature",
+                "transform": " "
+            }
+        }
+    },
+
     "T": {
-        "name": "Tenaglie per ossa",
-        "description": "Chissa' chi era il chirurgo che le usava",
+        "name": "Segaossa",
+        "description": "Chissa' chi era il chirurgo che lo usava",
         "color": "green",
         "interactions": {
             "no-item": {
-                "message": "potrebbero tornare utili",
+                "message": "Potrebbe tornare utile",
                 "transform": " ",
                 "pickup": true
             }
         }
     },
 
-    "R": {
-        "name": "bomba",
-        "description": "e' una bomba pronta a detonare, devo sbrigarmi a disinnescarla!",
-        "color": "red",
+    "V": {
+        "name": "Vasca da bagno",
+        "description": "E' una vasca da bagno, c'è un po' di sangue secco all'interno",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "......"                
+            }
+        }    
+    },
+
+    "W": {
+        "name": "Finestra",
+        "description": "Alcuni pezzi di vetro sono aldati in frantumi",
+        "color": "orange",
         "interactions": {
             "no-item": {
                 "message": "Ti affacci alla finestra, ma qualcosa ti spinge violentemente da dietro e cadi",
@@ -50,7 +74,29 @@
             }
         }    
     },
-        
+
+    "G": {
+        "name": "Gabinetto",
+        "description": "Emana un odore molto sgradevole",
+        "color": "green",
+        "interactions": {
+            "no-item": {
+                "message": "Pensarai ai tuoi bisogni piu' tardi"
+            }
+        }    
+    },
+      
+    "U": {
+        "name": "Lavandino",
+        "description": "Avrebbe davvero bisogno di una ripulita",
+        "color": "green",
+        "interactions": {
+            "no-item": {
+                "message": "Ti affacci alla finestra, ma qualcosa ti spinge violentemente da dietro e cadi"
+            }
+        }    
+    },
+
     "1": {
         "name": "Porta",
         "description": "E' una porta",
@@ -134,7 +180,7 @@
         }
     },
 
-    "F": {
+    "Y": {
         "name": "Frammento di tela",
         "description": "E' solo un pezzo di tela rovinato, cosa credi di farci esattamente?",
         "color": "yellow",
