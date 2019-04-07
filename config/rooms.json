@@ -1,19 +1,31 @@
 {
     "0": {
-        "name": "Sala",
-        "description": "Questo luogo e' abbastanza accogliente nonostante il senso di claustrofobia che ti trasmette",
+        "name": "Atrio",
+        "description": "Anche se non sembra molto accogliente lo è di piu' rispetto alle altre stanze, fidati",
         "color": "grey"
     },
 
     "1": {
-        "name": "Cucina",
-        "description": "E' tutto molto disordinato. Sembra che nessuno abbia riordinato da molto tempo",
-        "color": "red"
+        "name": "Stanza da letto",
+        "description": "Il disordine regna sovrano, trovare qualcosa qua in mezzo sarà difficile",
+        "color": "grey"
     },
     
+    "2": {
+        "name": "Bagno",
+        "description": "L'odore non e' propriamente dei migliori, bisognerebbe cambiare aria qua dentro",
+        "color": "grey"
+    }, 
+
     "3": {
         "name": "Infermeria",
         "description": "Ci sono molte barelle e medicine a terra, piu' quelli che sembrerebbero...strumenti chirurgici?",
+        "color": "grey"
+    },
+
+    "4": {
+        "name": "Sotterranei",
+        "description": "Non c'e' molto da vedere qui, attento a non sbattere la testa sul soffitto",
         "color": "grey"
     }
 }

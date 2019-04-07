@@ -30,7 +30,7 @@
         "color": "magenta",
         "interactions": {
             "no-item": {
-                "message": "non puoi passare oltre, il passaggio e' ostruito",
+                "message": "non puoi passare oltre, il passaggio e' ostruito"
             },
             "T": {
                 "message": "Hai usato il segaossa per tagliare le tubature",
@@ -66,7 +66,7 @@
     "W": {
         "name": "Finestra",
         "description": "Alcuni pezzi di vetro sono aldati in frantumi",
-        "color": "orange",
+        "color": "cyan",
         "interactions": {
             "no-item": {
                 "message": "Ti affacci alla finestra, ma qualcosa ti spinge violentemente da dietro e cadi",
@@ -209,7 +209,7 @@
     "L": {
         "name": "Lama",
         "description": "E' una vecchia lama, ma ancora parecchio affilata",
-        "color": "grey",
+        "color": "red",
         "interactions": {
             "no-item": {
                 "message": "Hai preso la lama",
