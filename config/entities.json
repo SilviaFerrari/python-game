@@ -304,7 +304,7 @@
         "color": "green",
         "interactions": {
             "no-item": {
-                "message": "C'è qualcosa nel fondo...",
+                "message": "C'e' qualcosa nel fondo...",
                 "trasform": "Z"
             }
         }
