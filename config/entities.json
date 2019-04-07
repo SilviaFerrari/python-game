@@ -179,7 +179,7 @@
         "color": "green",
         "interactions": {
             "no-item": {
-                "message": "Non credo che spegnerla sia una genialata",
+                "message": "Non credo che spegnerla sia una genialata"
             }
         }
     },
@@ -192,7 +192,7 @@
         	"no-item": {
         		"message": "Sentendoti improvvisamente stanco ti ci sdrai sopra, ma il tuo corpo si paralizza, senti stani stridii, passi pesanti e...",
         		"game_over": "Attento non devi occupare il posto di un altro...non sono molto amichevoli qui"
-        	},
+        	}
         }
     },
 
@@ -215,7 +215,7 @@
         "color": "white",
         "interactions": {
             "no-item": { 
-                "message": "Provi a parlare col fantasma che continua a dire con voce sibilante:\n01000001010010010101010101010100010000010100110101001001",
+                "message": "Provi a parlare col fantasma che continua a dire con voce sibilante:\n01000001010010010101010101010100010000010100110101001001"
             },
             "P": {
                 "message": "Dici al fantasma la strana parola scritta sulla tela.\nImmediatamente il fantasma smette di parlare, si solleva da terra e vieni travolto da una luce accecante.",
