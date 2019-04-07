@@ -32,6 +32,7 @@
             },
             "T": {
                 "message": "Hai usato il segaossa per tagliare le tubature",
+                "remove_from_inventory": true,
                 "transform": " "
             }
         }
@@ -56,7 +57,7 @@
         "color": "blue",
         "interactions": {
             "no-item": {
-                "message": "......"                
+                "message": "Non credo sia il momento adatto"                
             }
         }    
     },
@@ -168,11 +169,11 @@
 
     "H": {
         "name": "Dipinto",
-        "description": "E' un \"normale quadro\" come tutti gli altri che ci sono qua dentro",
+        "description": "E' un 'normale quadro' come tutti gli altri che ci sono qua dentro",
         "color": "blue",
         "interactions": {
             "R": {
-                "message": "Spostando il quadro la cornice va in mille pezzi e ti rimane solo un frammento della tela",
+                "message": "Usi la lama per tagliare la tela del dipinto",
                 "transform": "Y"
             }
         }
@@ -183,6 +184,11 @@
         "description": "E' solo un pezzo di tela rovinato, cosa credi di farci esattamente?",
         "color": "yellow",
         "interactions": {
+            "no-item": {
+                "message": "Hai preso il pezzo di tela",
+                "transform": " ",
+                "pickup": true
+            },
             "N": {
                 "message": "Hai messo il pezzo di tela sotto la luce della lampada ed è apparsa una parola:\n010011000100100101000010010001010101001001001111",
                 "transform": "P",
@@ -206,19 +212,17 @@
 
     "L": {
         "name": "Lama",
-        "description": "E' una vecchia lama, non e' molto affilata",
+        "description": "E' una vecchia lama per nulla affilata",
         "color": "grey",
         "interactions": {
             "no-item": {
-                "message": "Hai preso la lama",
-                "transform": " ",
-                "pickup": true
+                "message": "In queste condizioni non ti servira' a nulla"
             },
             "Z": {
                 "message":"Sei riuscito ad affilarla per bene",
                 "transform": "R",
                 "remove_from_inventory": true,
-                "pickup": " "
+                "pickup": true
             }    
         }
     },
@@ -228,7 +232,7 @@
         "color": "red",
         "interactions": {
             "no-item": {
-                "message": "hai raccolto l'arrotolino",
+                "message": "Non e' una lima per unghie",
                 "transform": " ",
                 "pickup": true
             }
@@ -274,7 +278,7 @@
     "F": {
         "name": "Fantasma",
         "description": "E' APPARSO UN FANTASMA VATTENE VIA DA QUI!",
-        "color": "white",
+        "color": "red",
         "interactions": {
             "no-item": { 
                 "message": "Provi a parlare col fantasma che continua a dire con voce sibilante:\n01000001010010010101010101010100010000010100110101001001"
@@ -300,12 +304,12 @@
 
     "I": {
         "name": "vaso semi-distrutto",
-        "description": "Questo vaso e' molto vecchio e' molto malandato",
+        "description": "Questo vaso e' molto vecchio e molto malandato",
         "color": "green",
         "interactions": {
             "no-item": {
-                "message": "C'e' qualcosa nel fondo...",
-                "trasform": "Z"
+                "message": "C'e' qualcosa sul fondo...",
+                "transform": "Z"
             }
         }
     }
